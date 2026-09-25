@@ -9,33 +9,46 @@
 FG²M combines bidirectional false-negative exclusion, anchor-mediated cross-modal refinement, global-guided node saliency, and dustbin-augmented optimal transport in a two-stage retrieval framework.
 
 <p align="center">
-  <img src="assets/fg2m-model.png" alt="FG²M model architecture" width="96%">
+  <img src="assets/fg2m-model.png" alt="FG²M model architecture" width="94%">
 </p>
 
 ## FarmR-Bench
 
 FarmR-Bench evaluates retrieval under landscape, temporal, and geographic shifts. It contains FGL-CMR (2,606 images), FCD-CMR (11,218 images), and FES-CMR (7,598 images); each image is associated with three captions. Captions belonging to the same image remain in the same split and are treated as simultaneous positive targets.
 
-<table>
-  <tr>
-    <td width="60%" align="center"><img src="assets/benchmark-construction.png" alt="FarmR-Bench construction" width="100%"></td>
-    <td width="60%" align="center"><img src="assets/farmr-bench-map.png" alt="FarmR-Bench geographic coverage" width="100%"></td>
-  </tr>
-</table>
+**Dataset construction**
+
+<p align="center">
+  <img src="assets/benchmark-construction.png" alt="FarmR-Bench construction" width="92%">
+</p>
+
+**Geographic coverage**
+
+<p align="center">
+  <img src="assets/farmr-bench-map.png" alt="FarmR-Bench geographic coverage" width="92%">
+</p>
 
 ## Experimental results
 
 The following figures reproduce the existing manuscript tables without reformatting or recalculating the reported values. Click any table to view it at full resolution.
 
-<table>
-  <tr>
-    <td width="50%" align="center"><a href="assets/table-fes-frs.png"><img src="assets/table-fes-frs.png" alt="FES-CMR and FRS-CMR results" width="100%"></a></td>
-    <td width="50%" align="center"><a href="assets/table-fgl-fcd.png"><img src="assets/table-fgl-fcd.png" alt="FGL-CMR and FCD-CMR results" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><a href="assets/table-province.png"><img src="assets/table-province.png" alt="Province-wise FRS-CMR results" width="70%"></a></td>
-  </tr>
-</table>
+**FES-CMR and FRS-CMR**
+
+<p align="center">
+  <a href="assets/table-fes-frs.png"><img src="assets/table-fes-frs.png" alt="FES-CMR and FRS-CMR results" width="96%"></a>
+</p>
+
+**FGL-CMR and FCD-CMR**
+
+<p align="center">
+  <a href="assets/table-fgl-fcd.png"><img src="assets/table-fgl-fcd.png" alt="FGL-CMR and FCD-CMR results" width="96%"></a>
+</p>
+
+**Province-wise FRS-CMR results**
+
+<p align="center">
+  <a href="assets/table-province.png"><img src="assets/table-province.png" alt="Province-wise FRS-CMR results" width="96%"></a>
+</p>
 
 ## Data sources
 
