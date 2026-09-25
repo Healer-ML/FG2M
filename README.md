@@ -18,8 +18,8 @@ FarmR-Bench evaluates retrieval under landscape, temporal, and geographic shifts
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="assets/benchmark-construction.png" alt="FarmR-Bench construction" width="100%"></td>
-    <td width="50%" align="center"><img src="assets/farmr-bench-map.png" alt="FarmR-Bench geographic coverage" width="100%"></td>
+    <td width="60%" align="center"><img src="assets/benchmark-construction.png" alt="FarmR-Bench construction" width="100%"></td>
+    <td width="60%" align="center"><img src="assets/farmr-bench-map.png" alt="FarmR-Bench geographic coverage" width="100%"></td>
   </tr>
 </table>
 
