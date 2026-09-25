@@ -1,0 +1,20 @@
+# Keep the public repository free of manuscript source and implementation code.
+*.tex
+*.bib
+*.py
+*.ipynb
+*.json
+*.npy
+*.npz
+*.pt
+*.pth
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+grapg-gafa.pdf
+supplate.pdf
