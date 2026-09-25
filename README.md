@@ -16,17 +16,15 @@ FG²M combines bidirectional false-negative exclusion, anchor-mediated cross-mod
 
 FarmR-Bench evaluates retrieval under landscape, temporal, and geographic shifts. It contains FGL-CMR (2,606 images), FCD-CMR (11,218 images), and FES-CMR (7,598 images); each image is associated with three captions. Captions belonging to the same image remain in the same split and are treated as simultaneous positive targets.
 
-**Dataset construction**
-
-<p align="center">
+<div><strong>Dataset construction</strong></div>
+<div align="center">
   <img src="assets/benchmark-construction.png" alt="FarmR-Bench construction" width="92%">
-</p>
+</div>
 
-**Geographic coverage**
-
-<p align="center">
+<div><strong>Geographic coverage</strong></div>
+<div align="center">
   <img src="assets/farmr-bench-map.png" alt="FarmR-Bench geographic coverage" width="92%">
-</p>
+</div>
 
 ## Experimental results
 
@@ -54,6 +52,4 @@ The following figures reproduce the existing manuscript tables without reformatt
 
 The benchmark is constructed from publicly available remote-sensing datasets. Please cite the original dataset papers: FGFD (Li *et al.*, TGRS 2025), Hi-CNA (Sun *et al.*, ISPRS J. Photogramm. Remote Sens. 2024), and AI4Boundaries (d'Andrimont *et al.*, ESSD 2023).
 
-## Availability
 
-This repository intentionally contains only the paper summary, selected figures, and existing result-table images. Source code and training scripts will be released after acceptance.
