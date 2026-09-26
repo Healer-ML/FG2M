@@ -35,6 +35,4 @@ The following figures reproduce the existing manuscript tables without reformatt
 
 The benchmark is constructed from publicly available remote-sensing datasets. Please cite the original dataset papers: FGFD (Li *et al.*, TGRS 2025), Hi-CNA (Sun *et al.*, ISPRS J. Photogramm. Remote Sens. 2024), and AI4Boundaries (d'Andrimont *et al.*, ESSD 2023).
 
-## Availability
 
-This repository currently provides the paper summary, selected figures, and reported result-table images.
